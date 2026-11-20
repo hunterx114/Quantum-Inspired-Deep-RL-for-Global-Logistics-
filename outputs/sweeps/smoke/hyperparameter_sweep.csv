@@ -1,0 +1,2 @@
+bond_dim,learning_rate,noise_type,batch_size,episodes,final_reward_per_ship,updates,checkpoint
+2,0.001,ou,2,1,11.523074340820312,3,outputs\sweeps\smoke\checkpoints\bond-2_lr-0.001_noise-ou_batch-2\tn_maddpg\tn_maddpg_final.pt

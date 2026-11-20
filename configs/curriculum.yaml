@@ -1,0 +1,20 @@
+moving_average_window: 20
+stages:
+  - name: regional
+    n_ports: 100
+    n_ships: 10
+    port_closure_probability: 0.001
+    fuel_spike_probability: 0.001
+    promotion_threshold: 0.0
+  - name: continental
+    n_ports: 250
+    n_ships: 50
+    port_closure_probability: 0.005
+    fuel_spike_probability: 0.005
+    promotion_threshold: 0.1
+  - name: global
+    n_ports: 1000
+    n_ships: 200
+    port_closure_probability: 0.01
+    fuel_spike_probability: 0.01
+    promotion_threshold: null

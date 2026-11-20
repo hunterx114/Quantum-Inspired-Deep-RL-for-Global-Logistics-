@@ -1,0 +1,4 @@
+fuel_cost_weight: 0.01
+on_time_delivery_weight: 1.0
+sla_violation_weight: 1.0
+catastrophic_risk_weight: 10.0

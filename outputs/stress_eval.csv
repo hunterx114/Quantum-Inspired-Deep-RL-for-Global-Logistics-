@@ -1,0 +1,5 @@
+scenario,policy,seed,event_step,event_duration,baseline_reward_per_ship_step,scenario_reward_per_ship_step,reward_drop_per_ship_step,baseline_sla_percent,scenario_sla_percent,sla_drop_percentage_points,reward_recovery_steps,checkpoint
+port_closure,random,7,20,10,2.281830877587199,2.281830877587199,0.0,73.43347445847937,73.43347445847937,0.0,7,random_policy
+fuel_spike,random,7,20,10,2.281830877587199,2.133477767407894,0.14835311017930497,73.43347445847937,73.43347445847937,0.0,7,random_policy
+cascade,random,7,20,10,2.281830877587199,2.133477767407894,0.14835311017930497,73.43347445847937,73.43347445847937,0.0,7,random_policy
+storm_front,random,7,20,10,2.281830877587199,1.9805937274545429,0.3012371501326563,73.43347445847937,73.43347445847937,0.0,24,random_policy

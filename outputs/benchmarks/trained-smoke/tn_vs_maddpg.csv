@@ -1,0 +1,3 @@
+learner,n_agents,n_ports,steps,warmup_calls,parameters,p50_inference_ms,p95_inference_ms,peak_cpu_memory_mb,peak_gpu_memory_mb,decisions_per_second,total_reward,mean_reward_per_ship,checkpoint
+maddpg,10,100,50,5,569318,0.724400015315041,1.6762550134444603,82.58984375,0.0,11129.239432467331,-23144.651097927243,-2314.4651097927244,outputs\checkpoints\maddpg\maddpg_final.pt
+tn_maddpg,10,100,50,5,185702,4.514250031206757,6.15316001640167,75.8359375,0.0,2139.992304803116,-23433.581033468246,-2343.3581033468245,outputs\checkpoints\tn_maddpg\tn_maddpg_final.pt

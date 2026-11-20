@@ -1,0 +1,15 @@
+obs_dim: 16
+hidden_dim: 64
+critic_hidden_dim: 128
+learning_rate: 0.001
+gamma: 0.99
+tau: 0.005
+replay_capacity: 100000
+batch_size: 128
+noise_type: ou
+noise_scale: 0.2
+ou_theta: 0.15
+ou_sigma: 0.2
+seed: 7
+torch_num_threads: 1
+bond_dim: 8
